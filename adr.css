@@ -1,0 +1,3 @@
+div.adr {border-radius: 0.2rem; border: 0.1rem solid #F2C11E; padding:0.3rem; margin:1rem 0;background-color:#f7f7f7;display:inline-block;font-size:0.8em;}
+span.adr {font-size: 1.1em; color:#094A7A;font-weight:bold;display:inline-block;min-width:1.8em;}
+span.ico {position: relative; top: -0.5em; font-size: 0.5em; color:#094A7A; display:inline-block;min-width:4em;}

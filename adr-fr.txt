@@ -1,0 +1,19 @@
+# Datenstrom Yellow language file
+
+Language: fr
+LanguageDescription: Français
+LanguageTranslator: Norbert Simon
+
+adr_contactdata: Contact Details
+adr_ExternalLink: Lien externe vers la page du fournisseur
+adr_ShowMaps: Afficher dans GoogleMaps
+adr_InquiredBy: Demande%20de%20renseignements%20de
+adr_ByMail: Courrier électronique par votre programme de courrier électronique
+adr_OwnRisk: L'utilisation des liens externes est à vos propres risques. <br/>Ils <b>ne font pas partie</b> de ce site.
+adr_Address: ADR
+adr_Map: CART
+adr_Tel: TÉL
+adr_Mobile: MOBILE
+adr_Fax: FAX
+adr_Web: WWW
+adr_Mail: E-MAIL

@@ -1,0 +1,19 @@
+# Datenstrom Yellow language file
+
+Language: de
+LanguageDescription: Deutsch
+LanguageTranslator: Norbert Simon
+
+adr_contactdata: Kontaktdaten
+adr_ExternalLink: Externer Link zur Anbieterseite
+adr_ShowMaps: In Google Maps anzeigen
+adr_InquiredBy: Anfrag%20von%20
+adr_ByMail: E-Mail mit Ihrem E-Mail-Programm
+adr_OwnRisk: Das Nutzen externer Links erfolgt auf eigene Gefahr.<br/>Sie sind <b>kein Bestandteil</b> dieser Webseite(n).
+adr_Address: POST
+adr_Map: KARTE
+adr_Tel: TEL
+adr_Mobile: MOBIL
+adr_Fax: FAX
+adr_Web: WEB
+adr_Mail: E-MAIL
