@@ -1,5 +1,5 @@
 <?php
-// adr plugin, https://github.com/nosibs/yellow-plugin-adr
+// adr plugin, https://github.com/BsNoSi/yellow-extention-adr
 // Copyright (c) 2018 Norbert Simon, nosi@nosi.de
 // This file may be used and distributed under the terms of the public license.
 // 2018-11-12 Initial Release
