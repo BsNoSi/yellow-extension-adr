@@ -9,10 +9,10 @@ Sometimes you need a more or less big amount of different adress data *well form
 ## How do I Install This?
 
 1. Download and install [Datenstrom Yellow CMS](https://github.com/datenstrom/yellow/).
-2. Download [adr plugin](https://github.com/BsNoSi/yellow-features/raw/master/zip/adr.zip). If you are using Safari, right click and select 'Download file as'.
+2. Download [adr extention](https://github.com/BsNoSi/yellow-extention-adr/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy the `adr-master.zip` into the `system/plugins` folder.
 
-To uninstall simply delete the [extention files](https://github.com/BsNoSi/yellow-features/blob/master/adr/extention.ini).
+To uninstall simply delete the [extention files](https://github.com/BsNoSi/yellow-extention-adr/blob/master/extention.ini).
 
 ## Using the adr extention
 
