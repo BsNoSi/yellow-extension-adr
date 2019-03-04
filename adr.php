@@ -8,13 +8,14 @@
 
 class Yellowadr {
     const VERSION = "1.1";
+	const TYPE = "feature";
     public $yellow;         //access to API
     
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
     }
-    // Handle page content parsing of custom block
+    // Handle page content of shortcut
     public function onParseContentBlock($page, $name, $text, $shortcut) {
         $output = null;
         if ($name=="adr" && $shortcut) {
