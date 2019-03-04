@@ -1,4 +1,4 @@
-# Yellow Extention Adr  BETA!
+# Yellow Extension Adr
 
 Creator for well formated adress display
 
