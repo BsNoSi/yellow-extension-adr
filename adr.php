@@ -1,24 +1,28 @@
 <?php
-// adr plugin, https://github.com/BsNoSi/yellow-extention-adr
-// Copyright (c) 2018 Norbert Simon, nosi@nosi.de
+// adr extension for YELLOW, https://github.com/bsnosi/yellow-extension-adr
+// Copyright ©2018-now Norbert Simon, https://nosi.de for
+// YELLOW Copyright ©2013-now Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
-// 2018-11-12 Initial Release
-// 2019-03-03 Update to new YELLOW API, language stripped from code to files
-// Icons gegen text getauscht
+// requires YELLOW 0.8.4 or higher
 
-class Yellowadr {
+class YellowAdr {
     const VERSION = "1.1";
 	const TYPE = "feature";
     public $yellow;         //access to API
     
+	
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
     }
     // Handle page content of shortcut
-    public function onParseContentBlock($page, $name, $text, $shortcut) {
+    public function onParseContentShortcut($page, $name, $text, $type) {
         $output = null;
-        if ($name=="adr" && $shortcut) {
+        if ($name=="adr" && ($type=="block" || $type=="inline")) {
+		  if (strlen($text)== 0) {
+			$output = '<b>[adr who street city phone web mail person fax mobile]</b>';  
+		  }	
+		  else {
 			list($who,$street, $city, $phone, $web, $mail,$person,$fax,$mobile) = $this->yellow->toolbox->getTextArgs($text);
 			$root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
 									
@@ -35,6 +39,7 @@ class Yellowadr {
 			if(!empty($mail)) $output .= '<br/><span class="ico">'.$this->yellow->text->getHtml("adr_Mail").'</span><a href="mailto://' . $mail . '?subject='.$this->yellow->text->getHtml("adr_InquiredBy").$root.$page->location.'" title="'.$this->yellow->text->getHtml("adr_ByMail").'">' . $mail . '</a>';
 			$output .= '</div>';
 			$output .= '<div class="adr">'.$this->yellow->text->get("adr_OwnRisk").'</div>' . $lng;;
+		  }
         }
         return $output;
     }
