@@ -6,7 +6,7 @@
 // requires YELLOW 0.8.4 or higher
 
 class YellowAdr {
-    const VERSION = "1.1";
+    const VERSION = "1.1.1";
 	const TYPE = "feature";
     public $yellow;         //access to API
     
@@ -31,7 +31,7 @@ class YellowAdr {
 			$output .= '<span class="adr">' . $who . '</span>';
 			if(!empty($person)) $output .= '<br/>'. $person;
 			$output .= '<br/><span class="ico">'.$this->yellow->text->getHtml("adr_Address").'</span>'.$street.'<br/><span class="adr">&nbsp;</span>'.$city;
-			$output .='<br/><span class="ico">'.$this->yellow->text->getHtml("adr_Map").'</span><a title="'.$this->yellow->text->getHtml("adr_ShowMaps").'" href="https://www.google.com/maps/place/' . $result .'" target="map">'.$this->yellow->text->getHtml("adr_ShowMaps").'</a>';
+			$output .='<br/><span class="ico">'.$this->yellow->text->getHtml("adr_Map").'</span><a title="'.$this->yellow->text->getHtml("adr_ShowMaps").'" href="https://www.google.de/maps/dir//' . $result .'" target="map">'.$this->yellow->text->getHtml("adr_ShowMaps").'</a>';
 			if(!empty($phone)) $output .= '<br/><span class="ico">'.$this->yellow->text->getHtml("adr_Tel").'</span>' . $phone;
 			if(!empty($mobile)) $output .= '<br/><span class="ico">'.$this->yellow->text->getHtml("adr_Mobile").'</span>' . $mobile;
 			if(!empty($fax)) $output .= '<br/><span class="ico">'.$this->yellow->text->getHtml("adr_Fax").'</span>' . $fax;
