@@ -1,6 +1,8 @@
 # Yellow Extention Adr
 
-Version 1.1.0 (Requires YELLOW 0.8.4 or higher)
+Version 1.1.2 (Requires YELLOW 0.8.4 or higher)
+
+> Tested with Yellow 0.815
 
 Creator for well formated adress display
 
@@ -11,10 +13,10 @@ Sometimes you need a more or less big amount of different adress data *well form
 ## How do I Install This?
 
 1. Download and install [Datenstrom Yellow CMS](https://github.com/datenstrom/yellow/).
-2. Download [adr extention](https://github.com/BsNoSi/yellow-extention-adr/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy the `adr-master.zip` into the `system/plugins` folder.
+2. Download [adr extention](https://github.com/BsNoSi/yellow-extension-adr/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy the `adr-master.zip` into the `system/extensions` folder.
 
-To uninstall simply delete the [extention files](https://github.com/BsNoSi/yellow-extention-adr/blob/master/extention.ini).
+To uninstall simply delete the [extention files](https://github.com/BsNoSi/yellow-extension-adr/blob/master/extension.ini).
 
 ## Using the adr extention
 
@@ -41,6 +43,15 @@ There is no check if
 - The css to achieve the displayed result above is included. You may change it to your theme style.
 
 
+## History
+
+2020-10-13: Revision and tested for Yellow 0.815
+
+2019-05-05: Initial Release (for GitHub)
+
+
 ## Developer
 
 [Norbert Simon](https://nosi.de/)
+
+
