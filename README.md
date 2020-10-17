@@ -1,16 +1,15 @@
 # Yellow Extention Adr
 
-Version 1.1.2 (Requires YELLOW 0.8.4 or higher)
+Version 1.1.3
 
-> Tested with Yellow 0.815
+> Tested with core version 0.8.23
 
-Creator for well formated adress display
+## Application
 
-## The Idea Behind
+Creation of well formated adresses.
 
-Sometimes you need a more or less big amount of different adress data *well formated* on a web site. To ease this, I created this extention for Yellow-CMS.
 
-## How do I Install This?
+## Install
 
 1. Download and install [Datenstrom Yellow CMS](https://github.com/datenstrom/yellow/).
 2. Download [adr extention](https://github.com/BsNoSi/yellow-extension-adr/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
@@ -18,11 +17,26 @@ Sometimes you need a more or less big amount of different adress data *well form
 
 To uninstall simply delete the [extention files](https://github.com/BsNoSi/yellow-extension-adr/blob/master/extension.ini).
 
-## Using the adr extention
+## Prequisits:
+
+- You need a header entry `adr` on pages where you want to use this extension.<br/>This refuses loading useless code on all other pages.
+
+```
+---
+title: …
+…
+adr: (what ever you want, the entry as such is relevant)
+…
+---
+```
+
+## Usage
 
 `[adr name1 street city phone website e-mail-adress name2 fax mobile]`
 
-> [adr] without parameter shows this bold in preview (or saved). If not bold, you should check if adr is installed correctly.
+Parameters should be self explaining.
+
+[adr] without any parameter shows the parameter setup bold in preview (or saved). If not bold, you should check if adr is installed correctly.
 
 All given parts are displayed in a structured form. You can leave out what you want. The order follows (descending my) typical availability and need of information details.
 
@@ -44,6 +58,8 @@ There is no check if
 
 
 ## History
+
+2020-10-17: API changes applied, prequisit of header flag added
 
 2020-10-13: Revision and tested for Yellow 0.815
 
