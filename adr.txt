@@ -1,0 +1,46 @@
+# adr extension, https://github.com/BsNoSi/yellow-extension-adr
+
+Language: en
+adr_contactdata: Contact Details
+adr_ExternalLink: External link to provider page
+adr_ShowMaps: Show in GoogleMaps
+adr_InquiredBy: Inquiry%20from%20
+adr_ByMail: E-Mail by your E-Mail Program
+adr_OwnRisk: The use of external links is at your own risk.<br/>They are <b>not part</b> of this website.
+adr_Address: ADDR
+adr_Map: POS
+adr_Tel: TEL
+adr_Mobile: MOBILE
+adr_Fax: FAX
+adr_Web: WEB
+adr_Mail: E-MAIL
+
+Language: de
+adr_contactdata: Kontaktdaten
+adr_ExternalLink: Externer Link zur Anbieterseite
+adr_ShowMaps: In Google Maps anzeigen
+adr_InquiredBy: Anfrag%20von%20
+adr_ByMail: E-Mail mit Ihrem E-Mail-Programm
+adr_OwnRisk: Das Nutzen externer Links erfolgt auf eigene Gefahr.<br/>Sie sind <b>kein Bestandteil</b> dieser Webseite(n).
+adr_Address: POST
+adr_Map: KARTE
+adr_Tel: TEL
+adr_Mobile: MOBIL
+adr_Fax: FAX
+adr_Web: WEB
+adr_Mail: E-MAIL
+
+Language: fr
+adr_contactdata: Contact Details
+adr_ExternalLink: Lien externe vers la page du fournisseur
+adr_ShowMaps: Afficher dans GoogleMaps
+adr_InquiredBy: Demande%20de%20renseignements%20de
+adr_ByMail: Courrier électronique par votre programme de courrier électronique
+adr_OwnRisk: L'utilisation des liens externes est à vos propres risques. <br/>Ils <b>ne font pas partie</b> de ce site.
+adr_Address: ADR
+adr_Map: CART
+adr_Tel: TÉL
+adr_Mobile: MOBILE
+adr_Fax: FAX
+adr_Web: WWW
+adr_Mail: E-MAIL
