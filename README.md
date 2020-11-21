@@ -1,8 +1,8 @@
 # Yellow Extention Adr
 
-Version 1.1.3
+Version 1.1.4
 
-> Tested with core version 0.8.23
+> Tested with Version0.8.33 / Release 0.8.16 of Yellow
 
 ## Application
 
@@ -58,6 +58,8 @@ There is no check if
 
 
 ## History
+
+2020-11-21: Alignment to install changes
 
 2020-10-17: API changes applied, prequisit of header flag added
 
